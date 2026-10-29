@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <vector>
+    <versionInfo version="26.1.4"/>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_REFERENCE_VALUE_ID" pkRow="1811">
+      <oldValue><![CDATA[21]]></oldValue>
+      <newValue><![CDATA[0FCDBF5CF8324825A387D300F06D2BA0]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_REFERENCE_VALUE_ID" pkRow="2959">
+      <oldValue><![CDATA[21]]></oldValue>
+      <newValue><![CDATA[0FCDBF5CF8324825A387D300F06D2BA0]]></newValue>
+    </columnDataChange>
+  </vector>
