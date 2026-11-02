@@ -21,7 +21,6 @@ dist/
 
 # Maven
 target/
-dist/
 
 # JetBrains IDE
 .idea/
@@ -48,3 +47,7 @@ Thumbs.db
 *.mov
 *.wmv
 
+
+build/
+!build/classes/
+etendo.artifact.properties
