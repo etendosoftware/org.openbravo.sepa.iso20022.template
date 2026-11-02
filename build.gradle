@@ -37,21 +37,19 @@ repositories {
     maven {
         url = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.localization.spain.extensions"
     }
-    maven {
-        url = "https://repo.futit.cloud/repository/maven-releases"
-    }
-    maven {
-        url = "https://repo.futit.cloud/repository/maven-public-releases"
-    }
-    maven {
-        url = "https://repo.futit.cloud/repository/maven-public-jars"
-    }
 }
 
+sourceSets {
+    main {
+        resources {
+            srcDirs("etendo-resources")
+        }
+    }
+}
 /**
 * Declare Java dependencies using 'implementation'
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-
+    implementation('org.openbravo:sepa.iso20022:2.0.0')
 }
