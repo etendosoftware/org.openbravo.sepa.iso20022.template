@@ -7,7 +7,7 @@
 */
 
 group          = "org.openbravo"
-version        = "1.0.0"
+version        = "1.1.0"
 description    = "SEPA Framework and Utilities Template"
 ext.artifact   = "sepa.iso20022.template"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.localization.spain.extensions"
@@ -51,5 +51,5 @@ sourceSets {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-    implementation('org.openbravo:sepa.iso20022:2.0.0')
+    implementation('org.openbravo:sepa.iso20022:2.1.0')
 }
